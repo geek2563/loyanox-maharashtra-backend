@@ -23,11 +23,10 @@ const app = express();
 app.use(express.json());
 
 const allowedOrigins = [
-  "http://localhost:3000",
-  "http://127.0.0.1:3000",
-  "http://localhost:3001",
-  // Add your production frontend URL here when deployed
-  // "https://your-frontend.vercel.app",
+  // "http://localhost:3000",
+  // "http://127.0.0.1:3000",
+  // "http://localhost:3001",
+  "https://loyanox-maharashtra.vercel.app",
 ];
 
 app.use(
